@@ -1,0 +1,210 @@
+@media screen and (max-width: 1024px) {
+    main {
+        padding: 0 25px 258px 25px;
+    }
+    aside {
+        width: 235px;
+    }
+    aside .logo {
+        width: 30px;
+        height: 30px;
+    }
+    aside #logo {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    aside {
+        display: none;
+        position: fixed;
+        width: 40%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0;
+        padding-top: 30px;
+        background: #000000bd;
+        top: 0;
+        left: 0;
+        z-index: 10;
+    }
+
+    #menu.open {
+        display: block;
+    }
+
+    #menu svg {
+        display: block;
+        width: 24px;
+        fill: #FFFFFF;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+    }
+
+    #burger {
+        display: block;
+        position: absolute;
+        left: 70px;
+        top: 50px;
+    }
+
+    #burger svg {
+        width: 40px;
+        height: 22px;
+        fill: #000000;
+    }
+
+    main .hello {
+        display: flex;
+        justify-content: end;
+    }
+
+    #menu .user {
+        margin-top: 150px;
+    }
+
+    #menu .user .name {
+        color: #a89999;
+    }
+
+    table {
+        display: block;
+        width: 100%;
+    }
+
+    table thead,
+    table tbody,
+    table thead th {
+        display: block;
+    }
+
+    table thead {
+        float: left;
+    }
+
+    table .table-head:last-child {
+        text-align: left;
+    }
+
+    table tbody {
+        overflow-x: auto;
+    }
+
+    table tbody tr {
+        display: table-cell;
+    }
+
+    table td {
+        display: block;
+    }
+
+    table .table-head {
+        border-bottom: none;
+    }
+
+    table .table-body {
+        padding: 0 0 14px 0;
+        border-bottom: none;
+        width: 130px;
+    }
+
+    table .table-body.active {
+        display: block;
+        margin: 0 5px 0 0;
+        text-align: center;
+    }
+
+    table .table-body.inactive {
+        display: block;
+        margin: 0 5px 0 0;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 455px) {
+        aside {
+            width: 70%;
+        }
+        #menu .menu-item {
+            padding: 12px 0 12px 39px;
+        }
+        #menu svg {
+            top: 20px;
+            right: 25px;
+        }
+        #menu .user {
+            margin-top: 30px;
+        }
+        main {
+            padding: 0 15px;
+        }
+
+        main .hello {
+            font-size: 18px;
+            margin: 20px 0 30px 0;
+        }
+
+        #burger {
+            top: 27px;
+        }
+
+        main header {
+            padding: 22px 0 40px 0
+        }
+
+        main header .customers {
+            font-size: 18px;
+        }
+
+        main header .members {
+            font-size: 12px;
+        }
+
+        main .square {
+            padding: 0 20px 0 20px;
+            max-width: 330px;
+            margin-bottom: 50px;
+        }
+
+        table .table-body {
+            font-size: 12px;
+        }
+
+        table .table-body.active {
+            font-size: 12px;
+            padding: 4px 0;
+        }
+
+        table .table-body.inactive {
+            font-size: 12px;
+            padding: 4px 0;
+        }
+
+        thead th:nth-child(4) {
+            width: 110px;
+        }
+
+        main .showing {
+            display: block;
+        }
+
+        main .showing p {
+            text-align: center;
+            font-size: 12px;
+        }
+
+        nav {
+            justify-content: center;
+        }
+
+        #burger {
+            left: 15px;
+        }
+
+        th {
+            font-size: 12px;
+        }
+    }
+}
